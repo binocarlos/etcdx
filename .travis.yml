@@ -1,0 +1,8 @@
+language: node_js
+node_js:
+  - "0.10"
+  - "0.8"
+before_script: 
+  - sudo git clone https://github.com/coreos/etcd.git /opt/etcd
+  - sudo cd /opt/etcd && ./build
+  - sudo /opt/etcd &

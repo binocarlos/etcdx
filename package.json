@@ -1,0 +1,34 @@
+{
+  "name": "etcdx",
+  "version": "0.0.1",
+  "description": "etcd v2 client for node.js",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/binocarlos/etcdx.git"
+  },
+  "keywords": [
+    "etcd",
+    "client",
+    "v2",
+    "raft",
+    "distributed"
+  ],
+  "author": "Kai Davenport",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/binocarlos/etcdx/issues"
+  },
+  "devDependencies": {
+    "mocha": "~1.14.0",
+    "should": "~2.1.0",
+    "async": "~0.2.9"
+  },
+  "dependencies": {
+    "superagent": "~0.15.7"
+  }
+}
