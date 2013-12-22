@@ -3,6 +3,9 @@ node_js:
   - "0.10"
   - "0.8"
 before_script: 
+  - sudo add-apt-repository -y ppa:duh/golang
+  - sudo apt-get update
+  - sudo install -y golang
   - sudo git clone https://github.com/coreos/etcd.git /opt/etcd
   - cd /opt/etcd && sudo ./build
   - sudo /opt/etcd &
