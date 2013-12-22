@@ -2,7 +2,7 @@ language: node_js
 node_js:
   - "0.10"
   - "0.8"
-install: 
+before_install: 
   - sudo add-apt-repository -y ppa:duh/golang
   - sudo apt-get update
   - sudo apt-get install -y golang
@@ -10,3 +10,4 @@ install:
   - cd /opt/etcd && sudo ./build
   - sudo /opt/etcd/etcd &
   - cd $TRAVIS_BUILD_DIR
+  - npm install
