@@ -1,6 +1,6 @@
 # etcdx
 
-![Build status](https://api.travis-ci.org/binocarlos/etcdx)
+![Build status](https://api.travis-ci.org/binocarlos/etcdx.png)
 
 node client for etcd v2 that adheres to waitIndex for watching.
 
